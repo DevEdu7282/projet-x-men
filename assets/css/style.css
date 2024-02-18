@@ -82,7 +82,7 @@ section .conteudo-1 .x-mens1 div a > img{
 section .conteudo-1 .x-mens1 div a > img:hover{
     height: 143px;
     border: 2px solid var(--barras);
-    box-shadow: 1px 1px 10px var(--barras);
+    box-shadow: 1px 1px 15px var(--barras);
 }
 
 section .conteudo-1 .x-mens2 div a > img{
@@ -94,7 +94,7 @@ section .conteudo-1 .x-mens2 div a > img{
 section .conteudo-1 .x-mens2 div a > img:hover{
     height: 143px;
     border: 2px solid var(--barras);
-    box-shadow: 1px 1px 10px var(--barras);
+    box-shadow: 1px 1px 15px var(--barras);
 }
 
 section .conteudo-2{
@@ -106,9 +106,9 @@ section .conteudo-2 > img{
     height: 300px;
 }
 
-section .conteudo-2 .info h3{
+section .conteudo-2 .info h1{
     font-weight: bold;
-    font-size: 13px;
+    font-size: 16px;
     letter-spacing: 5px;
     margin-bottom: 20px;
     border-bottom: 1px solid var(--barras);
@@ -117,6 +117,7 @@ section .conteudo-2 .info h3{
 section .conteudo-2 .info > p{
     text-transform: none;
     font-weight: 200;
+    font-size: 15px;
     line-height: 20px;
 }
 
