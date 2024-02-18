@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@200..800&display=swap');
+
+:root{
+    --opacidade: hsla(0, 0%, 0%, 0.90);
+    --barras: #47f4ff;
+    --font: "Oxanium", sans-serif;
+    --white: #ffffff;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+html, body{
+    background-color: #000000;
+    color: var(--white);
+    font-family: var(--font);
+    text-transform: uppercase;
+}
+
+body{
+    background-image: url(../image/fundo.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: 100vh;
+    overflow: hiddn;
+    text-align: center;
+}
+
+
+main{
+    background-color: var(--opacidade);
+    height: 100vh;
+}
+
+
+header > img{
+    display: block;
+    margin: 0 auto;
+    padding: 20px 0px 0px 0px;
+    width: 206px;
+}
+
+
+section{
+    display: flex;
+    align-items: center;
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+section .conteudo-1{
+    margin: 0px 0px 0px 10%;
+}
+
+section .conteudo-1 h3{
+    font-weight: bold;
+    font-size: 13px;
+    letter-spacing: 5px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid var(--barras);
+}
+
+section .conteudo-1 .x-mens1, .x-mens2{
+    display: flex;
+    gap: 20px;
+}
+
+section .conteudo-1 .x-mens1 div a > img{
+    height: 133px;
+    margin-bottom: 20px;
+    border-bottom: 3px solid var(--barras);
+    transition: 0.3s;
+}
+
+section .conteudo-1 .x-mens1 div a > img:hover{
+    height: 143px;
+    border: 2px solid var(--barras);
+    box-shadow: 1px 1px 10px var(--barras);
+}
+
+section .conteudo-1 .x-mens2 div a > img{
+    height: 133px;
+    border-bottom: 3px solid var(--barras);
+    transition: 0.3s;
+}
+
+section .conteudo-1 .x-mens2 div a > img:hover{
+    height: 143px;
+    border: 2px solid var(--barras);
+    box-shadow: 1px 1px 10px var(--barras);
+}
+
+section .conteudo-2{
+    max-width: 380px;
+    margin: 6% 0px 0px 2%;
+}
+
+section .conteudo-2 > img{
+    height: 300px;
+}
+
+section .conteudo-2 .info h3{
+    font-weight: bold;
+    font-size: 13px;
+    letter-spacing: 5px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid var(--barras);
+}
+
+section .conteudo-2 .info > p{
+    text-transform: none;
+    font-weight: 200;
+    line-height: 20px;
+}
+
+@media only screen and (max-width: 900px){
+    
+    body{
+        overflow: scroll;
+    }
+
+    section{
+        display: flex;
+        flex-direction: column-reverse;
+        overflow: scroll;
+        padding: 10px;
+    }
+
+    section .conteudo-1{
+        margin: 0 auto
+    }
+
+    section .conteudo-1 .x-mens1, .x-mens2{
+        display: flex;
+        gap: 7px;
+    }
+
+    section .conteudo-2 .info > p{
+        margin-bottom: 50px;
+    }
+}
