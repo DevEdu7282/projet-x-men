@@ -80,9 +80,9 @@ section .conteudo-1 .x-mens1 div a > img{
 }
 
 section .conteudo-1 .x-mens1 div a > img:hover{
-    height: 143px;
     border: 2px solid var(--barras);
     box-shadow: 1px 1px 15px var(--barras);
+    transform: scale(1.2);
 }
 
 section .conteudo-1 .x-mens2 div a > img{
@@ -92,9 +92,9 @@ section .conteudo-1 .x-mens2 div a > img{
 }
 
 section .conteudo-1 .x-mens2 div a > img:hover{
-    height: 143px;
     border: 2px solid var(--barras);
     box-shadow: 1px 1px 15px var(--barras);
+    transform: scale(1.2);
 }
 
 section .conteudo-2{
