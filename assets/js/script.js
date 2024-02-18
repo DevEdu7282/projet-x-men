@@ -23,7 +23,7 @@ function lincer(){
     let nome = document.getElementById("perso")
     let poder = document.getElementById("poder")
     foto.src = "https://s3-alpha-sig.figma.com/img/8322/5d76/deea579ca86580dfd765cec38a3f1447?Expires=1708905600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=c3rZx2~28TS-Tqa3usLevSuITe6ciOCBherxHC8mSxuxaKXPl9ilxGO7SIoNowWGpnSwa0m2vg2OWYsLXmXHP6N303F6y9KLZ99e2g~6~T3MBUKoxScljYR1kT73CGmN1HKo~96q4pOEU6O~xbnGmv9BC9sD5OjIsah-6TKUDcg4c5Y8L1w7weyJK50mDbV4IYzxMtIt3vGS7Z1xNAzcFXmOZT83HRW4dNxYB7zpLQCaCwgrYd3439KgXpDIAI3Cp3CMOQXKFNq8zjjAQRNP8CDi1Kq53kK06h0gnOLJ3TejD~dwFZNR4cjGwJ2tuDQLC3dey45FGl1~gO49qFiy1Q__"
-    nome.innerHTML = "Lincer"
+    nome.innerHTML = "Lincer Negra"
     poder.innerHTML = "Ela tem o poder de atravessar matéria sólida,campos de energia,rajadas ópticas, continuando intacta,e também tem o poder de andar no ar."
 }
 
